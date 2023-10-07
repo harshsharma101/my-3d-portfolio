@@ -1,4 +1,4 @@
-# A Fantastic 3D Portfolio Website with Three.js and React.js
+# My Fantastic 3D Portfolio Website with Three.js and React.js
 
 ![image](https://github.com/harshsharma101/my-3d-portfolio/assets/90311361/86dc1c0b-d321-4dac-bbf7-4951807a8dba)
 
