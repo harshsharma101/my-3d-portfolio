@@ -5,6 +5,7 @@ import {
   web,
   javascript,
   typescript,
+  python,
   html,
   css,
   reactjs,
@@ -23,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  salesforce,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -73,16 +75,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,8 +91,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
@@ -109,63 +103,141 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "salesforce",
+    icon: salesforce,
   },
 ];
 
 const experiences = [
+  // {
+  //   title: "React.js Developer",
+  //   company_name: "Starbucks",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "RGSTC-MSME Intern",
+    company_name: "Government of Maharashtra",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - Sept 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Partnered with RCOEM TBI to meet the growing demand for secure electric vehicle monitoring.",
+      "Developed a device for real-time tracking, battery monitoring, and data storage using web/GSM connectivity.",
+      "Designed a user-friendly app linked to Firebase, enabling instant access to electric cycle data on location and battery status.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Web Development and Designing Intern",
+    company_name: "OASIS INFOBYTE",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - March 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    ],
+  },
+  {
+    title: "Web Development Intern",
+    company_name: "TXON",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Feb 2023 – March 2023",
+    points: [
+      "Developing and maintaining web applications using HTML, CSS and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Cloud Virtual Intern",
+    company_name: "AWS",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Dec 2022 – Feb 2023",
+    points: [
+      "Gained hands on experience in working with AWS platform",
+    ],
+  },
+  {
+    title: "Head of Sales & Marketing",
+    company_name: "ADS ON WAY",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built company connections with 25+ hospitals in the city.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Operations Executive",
+    company_name: "UNIBUZZ SOLUTIONS",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed team hierarchy and legal documents.",
+      "Example - NDA",
     ],
+  },
+  {
+    title: "Business Development Manager",
+    company_name: "ALENTAR ELECTRIC",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Oct 2021 - March 2022",
+    points: [
+      "Represented company to Hon. Chief Minister of MH, India.",
+      "Increased networks for company, with 250+ customers including influencers.",
+    ],
+  },
+  {
+    title: "Member - The Uplift Project",
+    company_name: "GIRLSCRIPT FOUNDATION",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "June 2021 - Sep 2021",
+    points: [
+      "Domains: ML + Public Speaking & Storytelling.",
+      "Won 3 mini-competitions (b/w 1000+ people)",
+      "Best public speaker award.",
+    ],
+  },
+  {
+    title: "Mentee - DSA Buddy Program",
+    company_name: "GIRL CODE IT",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "May 2021 - July 2021",
+    points: [],
+  },
+  {
+    title: "Search Quality Rater",
+    company_name: "WELOCALIZE",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "2022 onwards",
+    points: [],
+  },
+  {
+    title: "Voice Over Artist",
+    company_name: "voices.com",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "2021 onwards",
+    points: [],
   },
 ];
 
