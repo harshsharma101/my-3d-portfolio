@@ -23,6 +23,16 @@ import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import salesforce from "./tech/salesforce.png";
 
+
+import alentar from "./company/alentar.png";
+import aow from "./company/aow.png";
+import msme from "./company/msme.png";
+import oasis from "./company/oasis.jpeg";
+import aws from "./company/aws.jpg";
+import txon from "./company/txon.jpeg";
+import ubs from "./company/ubs.jpg";
+import uplift from "./company/uplift.jpeg";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -63,4 +73,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  alentar,
+  aow,
+  aws,
+  msme,
+  oasis,
+  txon,
+  ubs,
+  uplift,
 };
