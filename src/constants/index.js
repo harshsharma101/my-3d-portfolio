@@ -60,7 +60,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Search Quality Rater",
     icon: backend,
   },
   {
