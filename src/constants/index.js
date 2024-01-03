@@ -25,6 +25,14 @@ import {
   tripguide,
   threejs,
   salesforce,
+  alentar,
+  aow,
+  aws,
+  msme,
+  oasis,
+  txon,
+  ubs,
+  uplift,
 } from "../assets";
 
 export const navLinks = [
@@ -127,11 +135,11 @@ const experiences = [
   //   ],
   // },
   {
-    title: "RGSTC-MSME Intern",
+    title: "RGSTC-MSME CAPIITA Intern",
     company_name: "Government of Maharashtra",
-    icon: starbucks,
+    icon: msme,
     iconBg: "#383E56",
-    date: "July 2023 - Sept 2023",
+    date: "July 2023 - Ongoing",
     points: [
       "Partnered with RCOEM TBI to meet the growing demand for secure electric vehicle monitoring.",
       "Developed a device for real-time tracking, battery monitoring, and data storage using web/GSM connectivity.",
@@ -141,7 +149,7 @@ const experiences = [
   {
     title: "Web Development and Designing Intern",
     company_name: "OASIS INFOBYTE",
-    icon: tesla,
+    icon: oasis,
     iconBg: "#E6DEDD",
     date: "Feb 2023 - March 2023",
     points: [
@@ -152,7 +160,7 @@ const experiences = [
   {
     title: "Web Development Intern",
     company_name: "TXON",
-    icon: tesla,
+    icon: txon,
     iconBg: "#E6DEDD",
     date: "Feb 2023 – March 2023",
     points: [
@@ -164,7 +172,7 @@ const experiences = [
   {
     title: "Cloud Virtual Intern",
     company_name: "AWS",
-    icon: tesla,
+    icon: aws,
     iconBg: "#E6DEDD",
     date: "Dec 2022 – Feb 2023",
     points: [
@@ -174,7 +182,7 @@ const experiences = [
   {
     title: "Head of Sales & Marketing",
     company_name: "ADS ON WAY",
-    icon: shopify,
+    icon: aow,
     iconBg: "#383E56",
     date: "March 2022 - June 2022",
     points: [
@@ -184,7 +192,7 @@ const experiences = [
   {
     title: "Operations Executive",
     company_name: "UNIBUZZ SOLUTIONS",
-    icon: meta,
+    icon: ubs,
     iconBg: "#E6DEDD",
     date: "March 2022 - May 2022",
     points: [
@@ -195,7 +203,7 @@ const experiences = [
   {
     title: "Business Development Manager",
     company_name: "ALENTAR ELECTRIC",
-    icon: shopify,
+    icon: alentar,
     iconBg: "#383E56",
     date: "Oct 2021 - March 2022",
     points: [
@@ -206,7 +214,7 @@ const experiences = [
   {
     title: "Member - The Uplift Project",
     company_name: "GIRLSCRIPT FOUNDATION",
-    icon: shopify,
+    icon: uplift,
     iconBg: "#383E56",
     date: "June 2021 - Sep 2021",
     points: [
