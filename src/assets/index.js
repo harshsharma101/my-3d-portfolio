@@ -33,7 +33,7 @@ import txon from "./company/txon.jpeg";
 import ubs from "./company/ubs.jpg";
 import uplift from "./company/uplift.jpeg";
 import corizo from "./company/corizo.png";
-import zomato from "./company/zomato.jpeg";
+import zomato from "./company/zomato.png";
 import ri from "./company/ri.jpeg";
 
 import meta from "./company/meta.png";
