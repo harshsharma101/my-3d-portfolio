@@ -32,6 +32,9 @@ import aws from "./company/aws.jpg";
 import txon from "./company/txon.jpeg";
 import ubs from "./company/ubs.jpg";
 import uplift from "./company/uplift.jpeg";
+import corizo from "./company/corizo.png";
+import zomato from "./company/zomato.jpeg";
+import ri from "./company/ri.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -81,4 +84,7 @@ export {
   txon,
   ubs,
   uplift,
+  corizo,
+  ri,
+  zomato,
 };

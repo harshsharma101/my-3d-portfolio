@@ -33,6 +33,9 @@ import {
   txon,
   ubs,
   uplift,
+  zomato,
+  ri,
+  corizo,
 } from "../assets";
 
 export const navLinks = [
@@ -135,14 +138,55 @@ const experiences = [
   //   ],
   // },
   {
+    title: "Key Account Manager",
+    company_name: "Zomato",
+    icon: zomato,
+    iconBg: "#383E56",
+    date: "Aug 2024 - ongoing",
+    points: [
+      "Analyzing and interpreting data to craft actionable insights.",
+      "Developing and executing AD campaigns to optimize merchant visibility.",
+      "Forecasting, budgeting, and planning for business scaling.",
+      "Identifying strategies to increase revenue and market share within the city.",
+      "Designing sustainable growth strategies for key accounts in Nagpur.",
+    ],
+  },
+  {
+    title: "Business Operations Executive",
+    company_name: "Corizo",
+    icon: corizo,
+    iconBg: "#383E56",
+    date: "July 2024 - Aug 2024",
+    points: [
+      "Recruited and trained campus executives from universities, expanding Corizo's reach nationwide.",
+      "Established partnerships with colleges and schools to drive programs like boot camps and events.",
+      "Conducted market research to align student skills with job market demands, enhancing program effectiveness.",
+      "Led expansions into new markets, focusing on deeper penetration in specific cities.",
+      "Improved conversion rates by refining sales pitches, cross-selling, and upselling strategies.",
+    ],
+  },
+  {
+    title: "Research Intern",
+    company_name: "Department of CSE[AI & ML], RCOEM",
+    icon: ri,
+    iconBg: "#383E56",
+    date: "Jan 2024 - June 2024",
+    points: [
+      "Developed an innovative approach to real-time person tracking and recognition using CCTV camera feeds in crowded areas. Utilized T-shirt color detection as a unique identifier for individuals.",
+      "Integrated contour detection, dynamic color calibration, and color thresholding techniques to enhance tracking accuracy.",
+      "Addressed limitations of conventional surveillance systems by improving the identification and monitoring of individuals in real time.",
+      "Utilized technologies such as contour detection, dynamic color calibration, color thresholding, and CCTV camera feed processing.",
+    ],
+  },
+  {
     title: "RGSTC-MSME CAPIITA Intern",
-    company_name: "Government of Maharashtra",
+    company_name: "Gov of MH, India + TBI Foundation",
     icon: msme,
     iconBg: "#383E56",
-    date: "July 2023 - Ongoing",
+    date: "July 2023 - Sept 2023",
     points: [
-      "Partnered with RCOEM TBI to meet the growing demand for secure electric vehicle monitoring.",
-      "Developed a device for real-time tracking, battery monitoring, and data storage using web/GSM connectivity.",
+      "Partnered with RCOEM TBI to work with core team of a startup (founder and CEO) to meet the growing demand for secure electric vehicle monitoring.",
+      "Developed a complete business implementation process, via an innovative device for real-time tracking, battery monitoring, and data storage using web/GSM connectivity.",
       "Designed a user-friendly app linked to Firebase, enabling instant access to electric cycle data on location and battery status.",
     ],
   },
@@ -162,7 +206,7 @@ const experiences = [
     company_name: "TXON",
     icon: txon,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 – March 2023",
+    date: "Feb 2023 - March 2023",
     points: [
       "Developing and maintaining web applications using HTML, CSS and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -174,7 +218,7 @@ const experiences = [
     company_name: "AWS",
     icon: aws,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 – Feb 2023",
+    date: "Dec 2022 - Feb 2023",
     points: [
       "Gained hands on experience in working with AWS platform",
     ],
