@@ -124,19 +124,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Key Account Manager",
     company_name: "Zomato",
@@ -147,8 +134,7 @@ const experiences = [
       "Analyzing and interpreting data to craft actionable insights.",
       "Developing and executing AD campaigns to optimize merchant visibility.",
       "Forecasting, budgeting, and planning for business scaling.",
-      "Identifying strategies to increase revenue and market share within the city.",
-      "Designing sustainable growth strategies for key accounts in Nagpur.",
+      "Identifying growth strategies to increase revenue and market share within the city.",
     ],
   },
   {
@@ -159,9 +145,7 @@ const experiences = [
     date: "July 2024 - Aug 2024",
     points: [
       "Recruited and trained campus executives from universities, expanding Corizo's reach nationwide.",
-      "Established partnerships with colleges and schools to drive programs like boot camps and events.",
       "Conducted market research to align student skills with job market demands, enhancing program effectiveness.",
-      "Led expansions into new markets, focusing on deeper penetration in specific cities.",
       "Improved conversion rates by refining sales pitches, cross-selling, and upselling strategies.",
     ],
   },
@@ -172,10 +156,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2024 - June 2024",
     points: [
-      "Developed an innovative approach to real-time person tracking and recognition using CCTV camera feeds in crowded areas. Utilized T-shirt color detection as a unique identifier for individuals.",
+      "Developed an innovative approach to real-time person tracking and recognition using CCTV camera feeds in crowded areas.",
       "Integrated contour detection, dynamic color calibration, and color thresholding techniques to enhance tracking accuracy.",
-      "Addressed limitations of conventional surveillance systems by improving the identification and monitoring of individuals in real time.",
-      "Utilized technologies such as contour detection, dynamic color calibration, color thresholding, and CCTV camera feed processing.",
     ],
   },
   {
@@ -187,32 +169,31 @@ const experiences = [
     points: [
       "Partnered with RCOEM TBI to work with core team of a startup (founder and CEO) to meet the growing demand for secure electric vehicle monitoring.",
       "Developed a complete business implementation process, via an innovative device for real-time tracking, battery monitoring, and data storage using web/GSM connectivity.",
-      "Designed a user-friendly app linked to Firebase, enabling instant access to electric cycle data on location and battery status.",
     ],
   },
-  {
-    title: "Web Development and Designing Intern",
-    company_name: "OASIS INFOBYTE",
-    icon: oasis,
-    iconBg: "#E6DEDD",
-    date: "Feb 2023 - March 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    ],
-  },
-  {
-    title: "Web Development Intern",
-    company_name: "TXON",
-    icon: txon,
-    iconBg: "#E6DEDD",
-    date: "Feb 2023 - March 2023",
-    points: [
-      "Developing and maintaining web applications using HTML, CSS and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Development and Designing Intern",
+  //   company_name: "OASIS INFOBYTE",
+  //   icon: oasis,
+  //   iconBg: "#E6DEDD",
+  //   date: "Feb 2023 - March 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Development Intern",
+  //   company_name: "TXON",
+  //   icon: txon,
+  //   iconBg: "#E6DEDD",
+  //   date: "Feb 2023 - March 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using HTML, CSS and other related technologies.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Cloud Virtual Intern",
     company_name: "AWS",
@@ -223,25 +204,16 @@ const experiences = [
       "Gained hands on experience in working with AWS platform",
     ],
   },
+
   {
-    title: "Head of Sales & Marketing",
-    company_name: "ADS ON WAY",
+    title: "Sales & Marketing + Operations",
+    company_name: "UniBuzz Solutions + ADS ON WAY [partnership]",
     icon: aow,
     iconBg: "#383E56",
     date: "March 2022 - June 2022",
     points: [
       "Built company connections with 25+ hospitals in the city.",
-    ],
-  },
-  {
-    title: "Operations Executive",
-    company_name: "UNIBUZZ SOLUTIONS",
-    icon: ubs,
-    iconBg: "#E6DEDD",
-    date: "March 2022 - May 2022",
-    points: [
-      "Developed team hierarchy and legal documents.",
-      "Example - NDA",
+      "Developed team hierarchy and legal documents(exa - NDA).",
     ],
   },
   {
@@ -251,7 +223,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Oct 2021 - March 2022",
     points: [
-      "Represented company to Hon. Chief Minister of MH, India.",
+      "Represented company to Hon. CM of MH, India.",
       "Increased networks for company, with 250+ customers including influencers.",
     ],
   },
