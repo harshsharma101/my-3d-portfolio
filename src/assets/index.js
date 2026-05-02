@@ -36,6 +36,8 @@ import corizo from "./company/corizo.png";
 import zomato from "./company/zomato.jpeg";
 import ri from "./company/ri.jpeg";
 
+import zs from "./company/zs.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -87,4 +89,5 @@ export {
   corizo,
   ri,
   zomato,
+  zs,
 };

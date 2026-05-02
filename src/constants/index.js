@@ -36,6 +36,7 @@ import {
   zomato,
   ri,
   corizo,
+  zs,
 } from "../assets";
 
 export const navLinks = [
@@ -55,19 +56,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Decision Analytics",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Business Transformation",
     icon: mobile,
   },
   {
-    title: "Search Quality Rater",
+    title: "Stakeholder Management",
     icon: backend,
   },
   {
-    title: "Graphic Designer",
+    title: "Strategy & Operations",
     icon: creator,
   },
 ];
@@ -125,11 +126,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Decision Analytics Associate",
+    company_name: "ZS Associates",
+    icon: zs,
+    iconBg: "#383E56",
+    date: "Aug 2025 - ongoing",
+    points: [
+      "Delivered analytics and market insights on U.S. COVID-19 vaccine sales for a leading global vaccine manufacturer.",
+      "Contributed to automation and KPI discovery for Quarterly Business Reviews by validating data sources and synthesizing stakeholder inputs.",
+      "Driving Contract Performance Management analytics for a major U.S. pharmaceutical distributor to identify non-compliance and rebate leakage opportunities.",
+    ],
+  },
+  {
     title: "Key Account Manager",
     company_name: "Zomato",
     icon: zomato,
     iconBg: "#383E56",
-    date: "Aug 2024 - ongoing",
+    date: "Aug 2024 - Aug 2025",
     points: [
       "Analyzing and interpreting data to craft actionable insights.",
       "Developing and executing AD campaigns to optimize merchant visibility.",
@@ -137,18 +150,18 @@ const experiences = [
       "Identifying growth strategies to increase revenue and market share within the city.",
     ],
   },
-  {
-    title: "Business Operations Executive",
-    company_name: "Corizo",
-    icon: corizo,
-    iconBg: "#383E56",
-    date: "July 2024 - Aug 2024",
-    points: [
-      "Recruited and trained campus executives from universities, expanding Corizo's reach nationwide.",
-      "Conducted market research to align student skills with job market demands, enhancing program effectiveness.",
-      "Improved conversion rates by refining sales pitches, cross-selling, and upselling strategies.",
-    ],
-  },
+  // {
+  //   title: "Business Operations Executive",
+  //   company_name: "Corizo",
+  //   icon: corizo,
+  //   iconBg: "#383E56",
+  //   date: "July 2024 - Aug 2024",
+  //   points: [
+  //     "Recruited and trained campus executives from universities, expanding Corizo's reach nationwide.",
+  //     "Conducted market research to align student skills with job market demands, enhancing program effectiveness.",
+  //     "Improved conversion rates by refining sales pitches, cross-selling, and upselling strategies.",
+  //   ],
+  // },
   {
     title: "Research Intern",
     company_name: "Department of CSE[AI & ML], RCOEM",

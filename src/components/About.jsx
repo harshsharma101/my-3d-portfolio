@@ -47,10 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled web developer with experience in HTML, CSS and
-        JavaScript, and expertise in frameworks like React, Node.js, Express.js, MongoDB, Bootstrap and Tailwind. I'm a quick learner and collaborate closely with clients to
+I’m an analytics professional with experience across consulting, business operations, and growth strategy. Currently at ZS Associates, I work on analytics and data-driven problem solving for healthcare and pharmaceutical clients. Previously at Zomato, I drove growth strategy for restaurant partners using analytics to improve business performance. My experience spans analytics, stakeholder management, and strategic thinking, with a strong interest in consulting and business transformation.
+        {/* I'm a skilled web developer with experience in HTML, CSS and JavaScript, and expertise in 
+        frameworks like React, Node.js, Express.js, MongoDB, Bootstrap and Tailwind. I'm a quick 
+        learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to bring your ideas to life! */}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
