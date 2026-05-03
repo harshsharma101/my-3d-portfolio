@@ -22,7 +22,11 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import salesforce from "./tech/salesforce.png";
-
+import newgithub from "./tech/newgithub.png";
+import excel from "./tech/excel.png";
+import ppt from "./tech/ppt.png";
+import powerbi from "./tech/powerbi.png";
+import sql from "./tech/sql.png";
 
 import alentar from "./company/alentar.png";
 import aow from "./company/aow.png";
@@ -46,6 +50,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import hr from "./hr.png";
+import mobiledashboard from "./mobiledashboard.png";
+import colordetec from "./colordetec.png";
 
 export {
   logo,
@@ -90,4 +97,12 @@ export {
   ri,
   zomato,
   zs,
+  excel,
+  newgithub,
+  powerbi,
+  ppt,
+  sql,
+  hr,
+  colordetec,
+  mobiledashboard,
 };

@@ -37,6 +37,14 @@ import {
   ri,
   corizo,
   zs,
+  powerbi,
+  sql,
+  newgithub,
+  excel,
+  ppt,
+  colordetec,
+  hr,
+  mobiledashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -75,53 +83,53 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Excel",
+    icon: excel,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Power Point",
+    icon: ppt,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Power BI",
+    icon: powerbi,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Python",
     icon: python,
   },
   {
-    name: "git",
-    icon: git,
+    name: "github",
+    icon: newgithub,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "salesforce",
-    icon: salesforce,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "salesforce",
+  //   icon: salesforce,
+  // },
 ];
 
 const experiences = [
@@ -307,67 +315,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HR Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Built a Power BI dashboard to analyze attendance, leave, and WFH trends, uncovering workforce insights to support HR decision-making.",
     tags: [
       {
-        name: "react",
+        name: "power bi",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "excel",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "tailwind",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hr,
+    source_code_link: "https://github.com/harshsharma101/HR-Analytics-Power_BI",
   },
   {
-    name: "Job IT",
+    name: "Mobile Details Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Power BI dashboard analyzing mobile market trends, pricing, and brand performance to support competitive analysis and strategic decisions.",
     tags: [
       {
-        name: "react",
+        name: "power bi",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "excel",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mobiledashboard,
+    source_code_link: "https://github.com/harshsharma101/Mobile-Details-Dashboard-for-Power-BI",
   },
   {
-    name: "Trip Guide",
+    name: "Advanced Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Computer vision model for real-time person tracking in crowded areas using color-based detection, enhancing monitoring accuracy in surveillance scenarios.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "OpenCV",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: colordetec,
+    source_code_link: "https://github.com/harshsharma101/Advanced-Person-Tracking-and-Detection/blob/main/README.md",
   },
 ];
 
