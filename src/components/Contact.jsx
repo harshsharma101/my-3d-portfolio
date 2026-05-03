@@ -31,16 +31,20 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+//template_1x6v2u8
+// service_d93u645
+// 0sl3IrbvZ8SR0ZEss
+
     emailjs
       .send(
-        'service_d93u645', // service_d93u645
+        'service_d93u645', // service_d93u645  
         'template_1x6v2u8', // template_1x6v2u8
+        // this was not working earlier: issues was : need to disconnect and reconnect gmail account on emailjs website.
         {
           from_name: form.name,
-          to_name: "Harsh Sharma",
+          to_name: 'Harsh Sharma',
           from_email: form.email,
-          // to_email: "sujata@jsmastery.pro",
-          to_email: "harshsharma95595@gmail.com",
+          to_email: 'harshsharma95595@gmail.com',
           message: form.message,
         },
         '0sl3IrbvZ8SR0ZEss'  //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY  //0sl3IrbvZ8SR0ZEss
