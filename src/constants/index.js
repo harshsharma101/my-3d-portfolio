@@ -45,6 +45,9 @@ import {
   colordetec,
   hr,
   mobiledashboard,
+  placement,
+  wealth,
+  nextlevel,
 } from "../assets";
 
 export const navLinks = [
@@ -289,28 +292,53 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Harsh proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Led execution of one of the largest college events (gaming), managing logistics, teams, and overall coordination.",
+    name: "Event Coordinator",
+    designation: "NEXT LEVEL",
+    company: "TRINITY GAMING",
+    image: nextlevel,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Harsh does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Coordinated placement activities and acted as a bridge between students & recruiters, supporting execution of hiring processes.",
+    name: "Student Coordinator",
+      designation: "CDPC",
+    company: "RCOEM",
+    image: placement,
   },
   {
     testimonial:
-      "After Harsh optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Managed budgeting and financial planning for student initiatives, ensuring management and effective allocation of resources.",
+    name: "Joint Treasurer",
+    designation: "Compusys",
+    company: "RCOEM",
+    image: wealth,
   },
+ 
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Harsh proved me wrong.",
+  //   name: "Sara Lee",
+  //   designation: "CFO",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Harsh does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Harsh optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [

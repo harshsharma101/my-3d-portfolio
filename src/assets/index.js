@@ -40,6 +40,11 @@ import corizo from "./company/corizo.png";
 import zomato from "./company/zomato.jpeg";
 import ri from "./company/ri.jpeg";
 
+// extra activities images
+import nextlevel from "./company/nextlevel.png";
+import placement from "./company/placement.png";
+import wealth from "./company/wealth.jpg";
+
 import zs from "./company/zs.png";
 
 import meta from "./company/meta.png";
@@ -105,4 +110,7 @@ export {
   hr,
   colordetec,
   mobiledashboard,
+  nextlevel,
+  wealth,
+  placement,
 };
